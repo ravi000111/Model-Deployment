@@ -3,7 +3,7 @@ import joblib
 import pandas as pd
 
 # Load the model
-model = joblib.load("C:\\Users\\Deepak Gurjar\\OneDrive\\Desktop\\python\\model_gst.pkl")
+model = joblib.load("model_gst.pkl")
 
 # Retrieve the feature names from the model to ensure correct column order
 expected_columns = model.get_booster().feature_names  # Get the expected feature names from the model
